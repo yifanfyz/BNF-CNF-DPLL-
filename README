@@ -1,0 +1,35 @@
+This lab is based on Java. Wrote by Yifan Zhang.
+
+[Instruction]
+
+*****DPLL Algorithm
+Compile example: 
+    javac solver.java
+    java solver -v -mode dpll inputFileName.txt
+
+1. To select DPLL mode, type "dpll" after "-mode".
+2. [-v] is optional. If you want a full detail about how DPLL choose easy and hard case, type "-v" before "-mode". 
+3. Input file should be the last argument as lab2 requirement indicated. 
+
+
+*****BNF TO CNF 
+Compile example: 
+    javac solver.java
+    java solver -v -mode cnf bnf.txt
+
+1. To select CNF mode, type "cnf" after "-mode".
+
+*****Solver
+Compile example: 
+    javac solver.java
+    java solver -v -mode solver bnf.txt
+
+1. To select solver mode, type "solver" after "-mode".
+2. The output will give step by step.
+3. The output is possible to be different than instructor's answer since a different choice for hard case of DPLL.
+   I'm using "choose the first unbound atom in the HashTable" for the Guess Selection.
+
+
+
+
+
